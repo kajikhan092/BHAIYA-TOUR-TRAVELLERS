@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Bhaiya Tour Travellers</title>
+
+<style>
+
+body {
+
+  margin: 0;
+
+  font-family: Arial;
+
+  background: #f5f5f5;
+
+  text-align: center;
+
+}
+
+header {
+
+  background: #111;
+
+  color: white;
+
+  padding: 25px;
+
+}
+
+h1 { color: #d6a843; }
+
+.hero {
+
+  padding: 60px 15px;
+
+  background: #222;
+
+  color: white;
+
+}
+
+button {
+
+  background: #d6a843;
+
+  padding: 15px 25px;
+
+  border: none;
+
+  border-radius: 8px;
+
+  font-size: 17px;
+
+}
+
+section {
+
+  padding: 25px;
+
+}
+
+footer {
+
+  background: #111;
+
+  color: white;
+
+  padding: 20px;
+
+}
+
+</style>
+
+</head>
+
+<body>
+
+<header>
+
+<h1>BHAIYA TOUR TRAVELLERS</h1>
+
+<p>Luxury Tourist Car Service</p>
+
+</header>
+
+<div class="hero">
+
+<h2>WELCOME TO JAISALMER</h2>
+
+<h3>Explore The Golden City With Us</h3>
+
+<p>Luxury Cars | Desert Safari | Tour Packages</p>
+
+</div>
+
+<section>
+
+<h2>OUR SERVICES</h2>
+
+<p>Jaisalmer Sightseeing</p>
+
+<p>Sam Sand Dunes</p>
+
+<p>Luxury Tourist Cars</p>
+
+<p>Airport Pickup & Drop</p>
+
+</section>
+
+<footer>
+
+<p>BHAIYA TOUR TRAVELLERS</p>
+
+<p>Jaisalmer, Rajasthan</p>
+
+</footer>
+
+</body>
+
+</html>
