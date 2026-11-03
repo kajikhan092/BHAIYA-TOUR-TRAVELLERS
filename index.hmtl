@@ -1,127 +1,114 @@
+
 <!DOCTYPE html>
-
-<html lang="en">
-
+<html lang="hi">
 <head>
-
 <meta charset="UTF-8">
-
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-<title>Bhaiya Tour Travellers</title>
+<title>BHAIYA TOUR TRAVELLERS</title>
 
 <style>
-
-body {
-
-  margin: 0;
-
-  font-family: Arial;
-
-  background: #f5f5f5;
-
-  text-align: center;
-
+*{box-sizing:border-box}
+body{
+ margin:0;
+ font-family:Arial,sans-serif;
+ background:#080808;
+ color:white;
 }
-
-header {
-
-  background: #111;
-
-  color: white;
-
-  padding: 25px;
-
+header{
+ text-align:center;
+ padding:30px 15px;
+ background:#111;
+ border-bottom:2px solid #d4af37;
 }
-
-h1 { color: #d6a843; }
-
-.hero {
-
-  padding: 60px 15px;
-
-  background: #222;
-
-  color: white;
-
+header h1{color:#d4af37;font-size:30px}
+header p{color:#ddd}
+.hero{
+ padding:75px 20px;
+ text-align:center;
+ background:linear-gradient(#0009,#000c);
 }
-
-button {
-
-  background: #d6a843;
-
-  padding: 15px 25px;
-
-  border: none;
-
-  border-radius: 8px;
-
-  font-size: 17px;
-
+.hero h2{font-size:35px;color:#d4af37}
+.hero p{font-size:18px}
+.btn{
+ display:inline-block;
+ padding:14px 24px;
+ margin:10px;
+ background:#d4af37;
+ color:black;
+ text-decoration:none;
+ border-radius:8px;
+ font-weight:bold;
 }
-
-section {
-
-  padding: 25px;
-
+section{padding:35px 15px;text-align:center}
+h2{color:#d4af37}
+.cards{
+ display:flex;
+ flex-wrap:wrap;
+ justify-content:center;
+ gap:15px;
 }
-
-footer {
-
-  background: #111;
-
-  color: white;
-
-  padding: 20px;
-
+.card{
+ background:#191919;
+ border:1px solid #d4af37;
+ border-radius:12px;
+ padding:25px;
+ width:280px;
 }
-
+.card h3{color:#d4af37}
+footer{
+ background:#111;
+ padding:25px;
+ text-align:center;
+ color:#ccc;
+}
 </style>
-
 </head>
 
 <body>
 
 <header>
-
 <h1>BHAIYA TOUR TRAVELLERS</h1>
-
-<p>Luxury Tourist Car Service</p>
-
+<p>Luxury Tourist Car Service | Jaisalmer</p>
 </header>
 
 <div class="hero">
-
-<h2>WELCOME TO JAISALMER</h2>
-
-<h3>Explore The Golden City With Us</h3>
-
-<p>Luxury Cars | Desert Safari | Tour Packages</p>
-
+<h2>Explore The Golden City</h2>
+<p>Discover Jaisalmer with Comfortable & Luxury Cars</p>
+<a class="btn" href="#booking">BOOK NOW</a>
 </div>
 
 <section>
+<h2>Our Services</h2>
+<div class="cards">
+<div class="card">
+<h3>Thar</h3>
+<p>Desert & Local Sightseeing</p>
+</div>
+<div class="card">
+<h3>Fortuner</h3>
+<p>Luxury Travel Experience</p>
+</div>
+<div class="card">
+<h3>Innova</h3>
+<p>Family Tour & Outstation</p>
+</div>
+<div class="card">
+<h3>Jaisalmer Tour</h3>
+<p>Fort, Haveli & Desert Safari</p>
+</div>
+</div>
+</section>
 
-<h2>OUR SERVICES</h2>
-
-<p>Jaisalmer Sightseeing</p>
-
-<p>Sam Sand Dunes</p>
-
-<p>Luxury Tourist Cars</p>
-
-<p>Airport Pickup & Drop</p>
-
+<section id="booking">
+<h2>Book Your Journey</h2>
+<p>Contact us for booking and tour prices.</p>
+<a class="btn" href="https://wa.me/91XXXXXXXXXX">WhatsApp Booking</a>
 </section>
 
 <footer>
-
 <p>BHAIYA TOUR TRAVELLERS</p>
-
 <p>Jaisalmer, Rajasthan</p>
-
 </footer>
 
 </body>
-
 </html>
